@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+	<title>NTT | Laptop </title>
+    <script src="https://kit.fontawesome.com/4702f02b2a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet" href="css/mainstyle.css"/>
+	<link rel="stylesheet" href="css/bootstrap1.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min1.css"/>
+	<script src="signup.js"></script>
+	<script src="login.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body style="background-color: #F1F1F1;" >
+        
+        <header>
+            <nav class="header">
+                <ul>
+                    <li>
+                        &ensp;&ensp;&ensp;&ensp;
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo" width="40%" align="middle">
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        </p>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="timkiem" name="search" placeholder="Search..." align="middle">
+                            <i class="fas fa-search" style="color:white; font-size: 23px;" align="middle"></i>
+                        </form>
+                    </li>
+                    <li>
+                        <p>
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;                        
+                        </p>
+                    </li>
+                    <li>
+                        <div class="dropacc">
+                            <button class="dropaccbtn"><i class="fas fa-user-circle" style="color:white; font-size: 25px;" align="middle"></i></button>
+                            <div align="left" class="dropacc-content">
+                                <a href="login/signin.html">Đăng nhập</a>
+                                <a href="login/signup.html">Đăng ký</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><p>&ensp;</p></li>
+                    <li>
+                        <button id="cart">
+                            <i class="fas fa-shopping-cart" style="color:white; font-size: 25px;" align="middle"></i>
+                        </button>                        
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="login/index.html">Trang chủ</a></li>
+                <li><a href="login/gioithieu.html">Giới thiệu</a></li>
+                <div class="dropdown">
+                    <a href="login/sanpham.html"><button class="dropbtn">Sản phẩm</button></a>
+                      <div align="left" class="dropdown-content">
+                            <a href="login/laptopvanphong.html">Laptop Văn Phòng</a>
+                            <a href="login/laptopdohoakythuat.html">Laptop Đồ Hoạ - Kỹ Thuật</a>
+                            <a href="login/laptopgaming.html">Laptop Gaming</a>
+                            <a href="login/linhkien.html">Linh kiện</a>
+                      </div>
+                </div>
+                
+                <li><a href="login/hoidap.html">Hỏi đáp</a></li>
+				<li><a href="login/thanhvien.html">Thành viên</a></li>
+            </ul>
+        </nav>
+	<!--  đăng ký tài khoản -->
+<div class="col-md-8 col-sm-12 col-xs-12">
+	<div class="row">
+		<div class="title" >
+			<h6 class="wow slideInDown " data-wow-delay=".2s">ĐĂNG KÝ TÀI KHOẢN</h6>
+		</div>
+	</div>
+<!--  FORM  đăng ký_ Thông tin tài khoản -->
+	<div class="row" >
+							<div class="col-md-2"> </div>
+							<div class=" col-md-9 " id="signup" >
+								<h2 class="wow slideInDown " data-wow-delay=".3s">THÔNG TIN TÀI KHOẢN</h2>
+
+								<form>
+									<!--  input 1 -->
+									<div class="form-group wow slideInDown  row" data-wow-delay=".4s"  id="input_1">
+										<!--  -->
+										<div class="er_label" id="er_input1" style=" margin-left: -106px;">
+
+											<label for=""  class="error_input" id="error_label_1"></label>
+											<span style="" id="a"></span>
+										</div>
+										<!--  -->
+										<label for="inputEmail3" class="col-sm-4 control-label nhap">Tài khoản <span>(*)</span></label>
+										<div class="col-sm-8">
+											<input type="text" class="form-control input" id="input1" placeholder="Tên tài khoản của bạn"   >
+										</div>
+									</div>
+									<!--  input 2 -->
+									<div class="form-group wow slideInDown  row" data-wow-delay=".5s" id="input_2">
+										<!--  -->
+										<div class="er_label"  id="er_input2" style=" margin-left: -79px;">
+											<label for="" style="" id="error_label_2" class="error_label_2"></label>
+											<span style="" id="b"></span>
+										</div>
+										<!--  -->
+										<label for="inputEmail3"  class="col-sm-4 control-label nhap">Email <span>(*)</span></label>
+										<div class="col-sm-8">
+											<input type="email" class="form-control input" id="input2" placeholder="Địa chỉ Email của bạn"  >
+										</div>
+									</div>
+									<!--  input 3 -->
+
+									<div class="form-group wow slideInDown  row" data-wow-delay=".6s" id="input_3">
+										<!--  -->
+										<div class="er_label" id="er_input3" style=" margin-left: -107px;">
+
+											<label for="" style="" class="error_label_3" id="error_label_3"></label>
+											<span style="" id="c"></span>
+										</div>
+										<!--  -->
+										<label for="inputEmail3" class="col-sm-4 control-label nhap">Mật khẩu <span>(*)</span></label>
+										<div class="col-sm-8 mb-2 my-1">
+											<div class="input-group-prepend input-group " id="ipex1">
+												<input type="password" class="form-control input" id="input3" placeholder="Mật khẩu đăng nhập"  >
+												<div class="input-group-text showhide" ><i class="far fa-eye i"></i></div>
+											</div>
+										</div>
+									</div>
+									<!--  input 4 -->
+									<div class="form-group wow slideInDown  row" data-wow-delay=".7s" id="input_4">
+										<!--  -->
+										<div class="er_label" id="er_input4" style=" margin-left: -155px;">
+
+											<label for="" style="" class="error_label_4" id="error_label_4"> </label>
+											<span style="" id="d"></span>
+
+										</div>
+										<!--  -->
+										<label for="inputPassword3" class="col-sm-4 control-label nhap">Nhập lại mật khẩu <span>(*)</span></label>
+										<div class="col-sm-8 my-1 mb-2 ">
+											<div class="input-group-prepend input-group " id="ipex2">
+												<input type="password"  class="form-control input" id="input4" placeholder="Mật khẩu đăng nhập" >
+												<div class="input-group-text showhide" ><i class="far fa-eye i"></i></div>
+											</div>
+										</div>
+									</div>				
+									<!--  form thông tin cá nhân -->
+									<h2 class="wow slideInDown" style="margin-top: 30px;" data-wow-delay=".7s">THÔNG TIN CÁ NHÂN</h2>
+									<div class=" row">
+										<div class="col-sm-6 col-xs-6"></div>
+										
+										<div class="col-sm-2 col-xs-2  wow flipInY " data-wow-delay=".8s"  id="typesex"  >
+											<img  id="img1" src="img/avatar1.png" alt="">
+											<img  id="img2" src="img/avatar2.png" alt="">
+										</div>
+										<div class="col-sm-4 col-xs-4"></div>
+									</div>
+									<!--  input 5 -->
+									<div class="form-group wow slideInDown row " data-wow-delay=".2s" id="input_5">
+										<!--  -->
+										<div class="er_label" id="er_input5" style=" margin-left: -85px;">
+
+											<label for="" style="" class="error_label_5" id="error_label_5"></label>
+											<span style="" id="e"></span>
+										</div>
+										<!--  -->
+										<label for="inputEmail3" class="col-sm-4 col-xs-4 control-label nhap">Họ tên <span>(*)</span></label>
+										<div class="col-sm-8 col-xs-8">
+											<input type="text" class="form-control input" id="input5" placeholder="Tên của bạn">
+										</div>
+									</div>
+									<!--  input 6-->
+									<div class="form-group wow slideInDown  row" data-wow-delay=".3s">
+										<label for="inputPassword3" class="col-sm-4 control-label nhap">Giới tính</label>
+										<div class="col-sm-8">
+											<select name="" id="input_6" class="form-control" >
+												<option id="boy" >Nam</option>
+												<option id="girl" >Nữ</option>
+											</select>
+										</div>
+										<label for="" id="error_6"></label>
+									</div>
+									<!-- input 7 -->
+
+									<div class="form-group wow slideInDown  row" data-wow-delay=".4s">
+
+										<label for="inputPassword3" class="col-md-4 col-sm-4  col-xs-1 control-label nhap">Ngày sinh</label>
+										<div class="col-md-2 col-sm-2  col-xs-1 year">
+											<select name="" class="form-control">
+												<script>
+													for(i=1;i<=31;i++){
+														document.write('<option value="">'+i+'</option>');
+													}
+												</script>
+											</select>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-2  year">
+											<select name="" class="form-control">
+												<script>
+													for(i=1;i<=12;i++){
+														document.write('<option value="">'+i+'</option>');
+													}
+												</script>
+											</select>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-4  year">
+											<select name="" class="form-control">
+												<script>
+													for(i=1945;i<=2018;i++){
+														document.write('<option value="">'+i+'</option>');
+													}
+												</script>
+											</select>
+
+										</div>
+
+									</div>
+									<!-- input 8  -->
+									<div class="form-group row wow slideInDown " shit data-wow-delay=".5s" >
+										<label for="inputEmail3" class="col-sm-4 col-xs-4 control-label nhap">Số điện thoại</label>
+										<div class="col-sm-8 col-xs-8">
+											<input  class="form-control" id="inputEmail3" placeholder="Số điện thoại liên hệ">
+										</div>
+									</div>
+									<!--  input 9 -->
+									<div class="form-group row wow slideInDown " data-wow-delay=".6s">
+										<label for="inputEmail3" class="col-sm-4 control-label nhap">Địa chỉ</label>
+										<div class="col-sm-8">
+											<input type="email" class="form-control" id="inputEmail3" placeholder="Chỗ ở hiện tại">
+										</div>
+									</div>
+									<!-- input 10 -->
+									<div class="form-group row wow slideInDown " data-wow-delay=".6s">
+										<label for="inputPassword3" class="col-sm-4 control-label nhap">Tỉnh/Thành phố</label>
+										<div class="col-sm-8">
+											<select name="" id="" class="form-control">
+												<option value="">Bình Dương</option>
+												<option value="">TP.Hồ Chí Minh</option>
+											</select>
+										</div>
+									</div>
+									<!--  input 11 -->
+									<div class="form-group row wow slideInDown " data-wow-delay=".7s" >
+										<label for="inputPassword3" class="col-sm-4 control-label nhap">Quận/Huyện</label>
+										<div class="col-sm-8">
+											<select name="" id="" class="form-control">
+												<option value="">TP.TDM </option>
+												<option value="">Thuận An</option>
+												<option value="">Dĩ An</option>
+												<option value="">Bến Cát</option>
+												<option value="">Hóc Môn </option>
+												<option value="">Gò Vấp</option>
+												<option value="">Củ Chi</option>
+												<option value="">Bình Thạnh</option>
+											</select>
+										</div>
+									</div>
+									<!-- click -->
+									<div class="form-group row">
+										<div class=" col-sm-6 col-xs-10"></div>
+										<div class=" col-sm-6 col-xs-2 ">
+
+											<input class="wow tada" type="button" value="ĐĂNG KÝ" id="click" data-wow-delay=".9s"  >
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="col-md-1 col-sm-1"></div>
+						</div>
+					</div>
+		<footer>
+            <section class="footer">
+                <article style="text-align: left;">
+                    <h4>CỬA HÀNG PHÂN PHỐI LAPTOP - LAPTOP NTT</h4>
+					<p style="color: darkgrey;"><i class="fas fa-map-marker-alt" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Địa chỉ:</strong> phường Hoà Lợi,thị xã Bến Cát, tỉnh Bình Dương</p>
+                    <p>Copyright &copy; Nuyễn Trung Trực - D21CNTT01</p>
+                </article>
+                <article style="text-align: center;">
+                    <h4>MẠNG XÃ HỘI</h4>
+                    <nav class="scocialmedia">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/trungtruc2411" target="_blank">
+                                    <i class="fab fa-facebook-square" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ttruc_2_4_1_1/?hl=vi" target="_blank">
+                                    <i class="fab fa-instagram" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCSLMp2IfPLhsgAHmsyu41eQ" target="_blank">
+                                    <i class="fab fa-youtube" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+                <article style="text-align: left;">
+					
+                    <p style="color: darkgrey;"><i class="fas fa-phone" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Điện thoại:</strong> 033190926</p>
+                    <p style="color: darkgrey;"><i class="fas fa-envelope" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Mail:</strong> truc5911@gmail.com</p>
+                    <p style="color: darkgrey;"><i class="fas fa-clock" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Giờ mở cửa:</strong> 8:00 đến 20:00 tất cả các ngày trong tuần</p>
+                </article>
+            </section>
+        </footer>
+	</body>
+	</html>
